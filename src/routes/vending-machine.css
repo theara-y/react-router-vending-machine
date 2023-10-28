@@ -1,0 +1,57 @@
+.vending-machine {
+  min-height: 90vh;
+  background-image: url('https://static.wikia.nocookie.net/to-aru-majutsu-no-index/images/2/26/Jihanki.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.vending-machine-msg {
+  position: absolute;
+  top: 45%;
+  left: 10%;
+  max-width: 200px;
+  background: black;
+  opacity: 0.6;
+  text-align: center;
+  padding: 2em;
+  border-radius: 10px;
+  font-weight: bolder;
+  color: white;
+  
+}
+
+.vending-machine-options {
+  position: absolute;
+  top: 40%;
+  right: 10%;
+  background: black;
+  padding: 2em;
+  text-align: center;
+  border-radius: 10px;
+  opacity: 0.6;
+}
+
+.vending-machine-options ul {
+  list-style-type: none;
+}
+
+.vending-machine-options li {
+  margin-bottom: 0.5em;
+}
+
+.vending-machine-options li:hover {
+  background: gray;
+}
+
+.vending-machine-options li:hover a{
+  color: white;
+}
+
+.vending-machine-options a {
+  display: flex;
+  justify-content: center;
+  padding: 0.25em 1em;
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
